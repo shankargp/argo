@@ -1,0 +1,8 @@
+apiVersion: customize.config.k8s.io/v1beta1
+kind: Customization
+
+namePrefix: customize-
+
+resources:
+- nginx-deployment.yaml
+- nginx-svc.yaml
